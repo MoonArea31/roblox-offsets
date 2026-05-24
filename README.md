@@ -30,3 +30,6 @@ ps: should i open roblox studio and learn to dump more offsets?
 
 ## Misc:
 discord user: happygirlsex (discord.gg/skids)
+
+## For Github
+The purpose of this repository is purely educational and does no damage to any software or service. These offsets can only be used by developers for testing their own personal experience, which is allowed as per the terms and conditions of the Roblox website. Developers who make use of these offsets outside the designated area are automatically blocked from accessing them.
