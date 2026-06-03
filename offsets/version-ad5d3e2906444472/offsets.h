@@ -36,7 +36,7 @@ namespace offsets {
 
     namespace Player {
         inline constexpr uintptr_t LocalPlayer = 0x138;
-        inline constexpr uintptr_t ModelInstance = 0x3a8;
+        inline constexpr uintptr_t ModelInstance = 0x280;
         inline constexpr uintptr_t UserId = 0x2d8;
         inline constexpr uintptr_t DisplayName = 0x130;
         inline constexpr uintptr_t TeamColor = 0x374;
@@ -84,7 +84,7 @@ namespace offsets {
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
         inline constexpr uintptr_t FloorMaterial = 0x190;
-        inline constexpr uintptr_t WalkTimer = 0x478;
+        inline constexpr uintptr_t WalkTimer = 0x400;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1e1;
         inline constexpr uintptr_t Sit = 0x1ea;
@@ -127,7 +127,7 @@ namespace offsets {
     }
 
     namespace VectorForce {
-        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x1a0;
+        inline constexpr uintptr_t ApplyAtCenterOfMass = 0x13e;
         inline constexpr uintptr_t Force = 0x190;
         inline constexpr uintptr_t RelativeTo = 0x19c;
     }
