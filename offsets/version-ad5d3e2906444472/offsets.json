@@ -26,7 +26,7 @@
     },
     "Player": {
         "LocalPlayer": 312,
-        "ModelInstance": 936,
+        "ModelInstance": 640,
         "UserId": 728,
         "DisplayName": 304,
         "TeamColor": 884,
@@ -71,7 +71,7 @@
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
         "FloorMaterial": 400,
-        "WalkTimer": 1144,
+        "WalkTimer": 1024,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -109,7 +109,7 @@
         "CurrentCamera": 1200
     },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 416,
+        "ApplyAtCenterOfMass": 318,
         "Force": 400,
         "RelativeTo": 412
     },
