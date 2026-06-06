@@ -26,7 +26,7 @@
     },
     "Player": {
         "LocalPlayer": 312,
-        "ModelInstance": 640,
+        "ModelInstance": 936,
         "UserId": 728,
         "DisplayName": 304,
         "TeamColor": 884,
@@ -71,7 +71,7 @@
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
         "FloorMaterial": 400,
-        "WalkTimer": 1024,
+        "WalkTimer": 1144,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -109,13 +109,13 @@
         "CurrentCamera": 1200
     },
     "VectorForce": {
-        "ApplyAtCenterOfMass": 318,
+        "ApplyAtCenterOfMass": 416,
         "Force": 400,
         "RelativeTo": 412
     },
     "DragDetector": {
-        "Enabled": 745,
-        "RunLocally": 747,
+        "Enabled": 222,
+        "RunLocally": 229,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
