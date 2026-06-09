@@ -1,26 +1,26 @@
 #pragma once
 #include <cstdint>
 
-// version-ad5d3e2906444472
+// version-76173e47a79145c7
 // dumped by moon (discord.gg/skids <- pls join)
 
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-ad5d3e2906444472";
+    inline constexpr const char* roblox_version = "version-76173e47a79145c7";
 
     namespace VisualEngine {
         inline constexpr uintptr_t ViewMatrix = 0x150;
         inline constexpr uintptr_t RenderView = 0xbb0;
-        inline constexpr uintptr_t Pointer = 0x801dfb0;
-        inline constexpr uintptr_t FakeDataModel = 0x1d0;
+        inline constexpr uintptr_t Pointer = 0x8158b80;
+        inline constexpr uintptr_t FakeDataModel = 0x1d8;
     }
 
     namespace DataModel {
         inline constexpr uintptr_t PlaceId = 0x1a0;
         inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x638;
+        inline constexpr uintptr_t GameLoaded = 0x670;
         inline constexpr uintptr_t CreatorId = 0x190;
         inline constexpr uintptr_t Workspace = 0x178;
-        inline constexpr uintptr_t ServerIP = 0x620;
+        inline constexpr uintptr_t ServerIP = 0x658;
         inline constexpr uintptr_t ScriptContext = 0x430;
         inline constexpr uintptr_t JobId = 0x138;
     }
@@ -36,13 +36,13 @@ namespace offsets {
 
     namespace Player {
         inline constexpr uintptr_t LocalPlayer = 0x138;
-        inline constexpr uintptr_t ModelInstance = 0x3a8;
-        inline constexpr uintptr_t UserId = 0x2d8;
-        inline constexpr uintptr_t DisplayName = 0x130;
-        inline constexpr uintptr_t TeamColor = 0x374;
-        inline constexpr uintptr_t Team = 0x2b0;
-        inline constexpr uintptr_t CameraMaxZoomDist = 0x330;
-        inline constexpr uintptr_t CameraMinZoomDist = 0x334;
+        inline constexpr uintptr_t ModelInstance = 0x3c8;
+        inline constexpr uintptr_t UserId = 0x2f8;
+        inline constexpr uintptr_t DisplayName = 0x150;
+        inline constexpr uintptr_t TeamColor = 0x394;
+        inline constexpr uintptr_t Team = 0x2d0;
+        inline constexpr uintptr_t CameraMaxZoomDist = 0x350;
+        inline constexpr uintptr_t CameraMinZoomDist = 0x354;
     }
 
     namespace BasePart {
@@ -84,7 +84,7 @@ namespace offsets {
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
         inline constexpr uintptr_t FloorMaterial = 0x190;
-        inline constexpr uintptr_t WalkTimer = 0x478;
+        inline constexpr uintptr_t WalkTimer = 0x400;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1e1;
         inline constexpr uintptr_t Sit = 0x1ea;
@@ -133,8 +133,8 @@ namespace offsets {
     }
 
     namespace DragDetector {
-        inline constexpr uintptr_t Enabled = 0xde;
-        inline constexpr uintptr_t RunLocally = 0xe5;
+        inline constexpr uintptr_t Enabled = 0x2e9;
+        inline constexpr uintptr_t RunLocally = 0x2eb;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
@@ -143,12 +143,12 @@ namespace offsets {
     }
 
     namespace Terrain {
-        inline constexpr uintptr_t WaterColor = 0x1e8;
-        inline constexpr uintptr_t WaterReflectance = 0x200;
-        inline constexpr uintptr_t WaterTransparency = 0x204;
-        inline constexpr uintptr_t WaterWaveSize = 0x208;
-        inline constexpr uintptr_t WaterWaveSpeed = 0x20c;
-        inline constexpr uintptr_t GrassLength = 0x1f8;
+        inline constexpr uintptr_t WaterColor = 0x1e0;
+        inline constexpr uintptr_t WaterReflectance = 0x1f8;
+        inline constexpr uintptr_t WaterTransparency = 0x1fc;
+        inline constexpr uintptr_t WaterWaveSize = 0x200;
+        inline constexpr uintptr_t WaterWaveSpeed = 0x204;
+        inline constexpr uintptr_t GrassLength = 0x1f0;
     }
 
     namespace Camera {
@@ -216,8 +216,8 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x78ff228;
-        inline constexpr uintptr_t RealDataModel = 0x1d0;
+        inline constexpr uintptr_t Pointer = 0x7a39ad8;
+        inline constexpr uintptr_t RealDataModel = 0x1d8;
     }
 
     namespace GuiObject {
@@ -229,7 +229,7 @@ namespace offsets {
     }
 
     namespace TextLabel {
-        inline constexpr uintptr_t Text = 0xb58;
+        inline constexpr uintptr_t Text = 0xb50;
         inline constexpr uintptr_t TextColor3 = 0xe50;
         inline constexpr uintptr_t TextSize = 0xe7c;
         inline constexpr uintptr_t TextTransparency = 0xe84;
@@ -263,7 +263,7 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0xc8;
+        inline constexpr uintptr_t Bytecode = 0x28;
         inline constexpr uintptr_t Hash = 0x160;
     }
 
@@ -284,7 +284,7 @@ namespace offsets {
     }
 
     namespace MeshPart {
-        inline constexpr uintptr_t MeshId = 0x300;
-        inline constexpr uintptr_t Texture = 0x330;
+        inline constexpr uintptr_t MeshId = 0x2f8;
+        inline constexpr uintptr_t Texture = 0x328;
     }
 }
