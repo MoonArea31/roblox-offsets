@@ -1,9 +1,9 @@
 {
-    "version": "version-2b1721d47abf49aa",
+    "version": "version-ad5d3e2906444472",
     "VisualEngine": {
-        "ViewMatrix": 320,
-        "RenderView": 2944,
-        "Pointer": 129847800,
+        "ViewMatrix": 336,
+        "RenderView": 2992,
+        "Pointer": 134340528,
         "FakeDataModel": 464
     },
     "DataModel": {
@@ -71,7 +71,7 @@
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
         "FloorMaterial": 400,
-        "WalkTimer": 1048,
+        "WalkTimer": 1144,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -105,7 +105,7 @@
     },
     "Workspace": {
         "World": 1032,
-        "ReadOnlyGravity": 2528,
+        "ReadOnlyGravity": 2544,
         "CurrentCamera": 1200
     },
     "VectorForce": {
@@ -114,8 +114,8 @@
         "RelativeTo": 412
     },
     "DragDetector": {
-        "Enabled": 745,
-        "RunLocally": 747,
+        "Enabled": 222,
+        "RunLocally": 229,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -129,16 +129,6 @@
         "WaterWaveSize": 520,
         "WaterWaveSpeed": 524,
         "GrassLength": 504
-    },
-    "FFlag": {
-        "TaskSchedulerTargetFps": 130016720,
-        "DebugDisableTimeoutDisconnect": 125174664,
-        "PhysicsSenderMaxBandwidthBps": 118191116,
-        "EnableLoadModule": 123832680,
-        "PhysicsSenderMaxBandwidthBpsScaling": 118191120,
-        "DebugSkyGray": 123024888,
-        "PartyPlayerInactivityTimeoutInSeconds": 118179348,
-        "NextGenReplicatorEnabledWrite4": 128355544
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
@@ -196,21 +186,21 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 122644312,
+        "Pointer": 126874152,
         "RealDataModel": 464
     },
     "GuiObject": {
-        "Visible": 1461,
-        "ZIndex": 1452,
-        "BackgroundColor3": 1352,
-        "BackgroundTransparency": 1388,
-        "BorderSizePixel": 1396
+        "Visible": 1453,
+        "ZIndex": 1444,
+        "BackgroundColor3": 1344,
+        "BackgroundTransparency": 1380,
+        "BorderSizePixel": 1388
     },
     "TextLabel": {
-        "Text": 2912,
-        "TextColor3": 3672,
-        "TextSize": 3716,
-        "TextTransparency": 3724
+        "Text": 2904,
+        "TextColor3": 3664,
+        "TextSize": 3708,
+        "TextTransparency": 3716
     },
     "Attachment": {
         "WorldCFrame": 184,
@@ -236,14 +226,14 @@
         "VectorVelocity": 612
     },
     "ModuleScript": {
-        "Bytecode": 320,
+        "Bytecode": 200,
         "Hash": 352
     },
     "LocalScript": {
         "Bytecode": 424
     },
     "Bytecode": {
-        "Size": 40,
+        "Size": 72,
         "Pointer": 16
     },
     "MeshData": {
@@ -253,7 +243,7 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "MeshId": 760,
-        "Texture": 808
+        "MeshId": 768,
+        "Texture": 816
     }
 }
