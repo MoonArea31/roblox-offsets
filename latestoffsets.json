@@ -1,18 +1,18 @@
 {
-    "version": "version-ad5d3e2906444472",
+    "version": "version-76173e47a79145c7",
     "VisualEngine": {
         "ViewMatrix": 336,
         "RenderView": 2992,
-        "Pointer": 134340528,
-        "FakeDataModel": 464
+        "Pointer": 135629696,
+        "FakeDataModel": 472
     },
     "DataModel": {
         "PlaceId": 416,
         "GameId": 408,
-        "GameLoaded": 1592,
+        "GameLoaded": 1648,
         "CreatorId": 400,
         "Workspace": 376,
-        "ServerIP": 1568,
+        "ServerIP": 1624,
         "ScriptContext": 1072,
         "JobId": 312
     },
@@ -26,13 +26,13 @@
     },
     "Player": {
         "LocalPlayer": 312,
-        "ModelInstance": 936,
-        "UserId": 728,
-        "DisplayName": 304,
-        "TeamColor": 884,
-        "Team": 688,
-        "CameraMaxZoomDist": 816,
-        "CameraMinZoomDist": 820
+        "ModelInstance": 968,
+        "UserId": 760,
+        "DisplayName": 336,
+        "TeamColor": 916,
+        "Team": 720,
+        "CameraMaxZoomDist": 848,
+        "CameraMinZoomDist": 852
     },
     "BasePart": {
         "Primitive": 328,
@@ -71,7 +71,7 @@
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
         "FloorMaterial": 400,
-        "WalkTimer": 1144,
+        "WalkTimer": 1024,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -114,8 +114,8 @@
         "RelativeTo": 412
     },
     "DragDetector": {
-        "Enabled": 222,
-        "RunLocally": 229,
+        "Enabled": 745,
+        "RunLocally": 747,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
@@ -123,12 +123,12 @@
         "DragStyle": 692
     },
     "Terrain": {
-        "WaterColor": 488,
-        "WaterReflectance": 512,
-        "WaterTransparency": 516,
-        "WaterWaveSize": 520,
-        "WaterWaveSpeed": 524,
-        "GrassLength": 504
+        "WaterColor": 480,
+        "WaterReflectance": 504,
+        "WaterTransparency": 508,
+        "WaterWaveSize": 512,
+        "WaterWaveSpeed": 516,
+        "GrassLength": 496
     },
     "Camera": {
         "DiagonalFieldOfView": 348,
@@ -186,8 +186,8 @@
         "CanQuery": 32
     },
     "FakeDataModel": {
-        "Pointer": 126874152,
-        "RealDataModel": 464
+        "Pointer": 128162520,
+        "RealDataModel": 472
     },
     "GuiObject": {
         "Visible": 1453,
@@ -197,7 +197,7 @@
         "BorderSizePixel": 1388
     },
     "TextLabel": {
-        "Text": 2904,
+        "Text": 2896,
         "TextColor3": 3664,
         "TextSize": 3708,
         "TextTransparency": 3716
@@ -226,7 +226,7 @@
         "VectorVelocity": 612
     },
     "ModuleScript": {
-        "Bytecode": 200,
+        "Bytecode": 40,
         "Hash": 352
     },
     "LocalScript": {
@@ -243,7 +243,7 @@
         "VertexStart": 0
     },
     "MeshPart": {
-        "MeshId": 768,
-        "Texture": 816
+        "MeshId": 760,
+        "Texture": 808
     }
 }
