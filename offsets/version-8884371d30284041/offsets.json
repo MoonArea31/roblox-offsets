@@ -51,7 +51,7 @@
         "AssemblyAngularVelocity": 260,
         "Material": 574,
         "Shape": 433,
-        "PrimitiveFlags": 81,
+        "PrimitiveFlags": 438,
         "Owner": 520
     },
     "Humanoid": {
@@ -70,7 +70,7 @@
         "NameDisplayDistance": 444,
         "WalkToPoint": 380,
         "FloorMaterial": 400,
-        "WalkTimer": 1024,
+        "WalkTimer": 1040,
         "WalkToPart": 304,
         "AutoRotate": 481,
         "Sit": 490,
@@ -88,7 +88,7 @@
         "Ambient": 224,
         "EnvironmentDiffuseScale": 300,
         "Atmosphere": 496,
-        "EnvironmentSpecularScale": 304,
+        "EnvironmentSpecularScale": 600,
         "OutdoorAmbient": 272,
         "ColorShift_Bottom": 248,
         "ColorShift_Top": 236
@@ -133,6 +133,8 @@
         "DiagonalFieldOfView": 348,
         "MaxAxisFieldOfView": 348,
         "FieldOfView": 352,
+        "Position": 284,
+        "CFrame": 248,
         "ViewportInt16": 684,
         "ViewportSize": 744,
         "CameraSubject": 232,
@@ -167,7 +169,7 @@
         "MaxActivationDistance": 320,
         "KeyboardKeyCode": 316,
         "Enabled": 334,
-        "RequiresLineOfSight": 17
+        "RequiresLineOfSight": 335
     },
     "ClickDetector": {
         "MaxActivationDistance": 256
