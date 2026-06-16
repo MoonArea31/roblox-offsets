@@ -17,6 +17,7 @@ namespace offsets {
     namespace DataModel {
         inline constexpr uintptr_t PlaceId = 0x1a8;
         inline constexpr uintptr_t GameId = 0x1a0;
+         inline constexpr uintptr_t GameLoaded = 0x670;
         inline constexpr uintptr_t CreatorId = 0x198;
         inline constexpr uintptr_t Workspace = 0x178;
         inline constexpr uintptr_t ServerIP = 0x660;
