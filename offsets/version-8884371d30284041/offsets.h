@@ -102,7 +102,7 @@ namespace offsets {
         inline constexpr uintptr_t Ambient = 0xe0;
         inline constexpr uintptr_t EnvironmentDiffuseScale = 0x12c;
         inline constexpr uintptr_t Atmosphere = 0x1f0;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x258;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x130;
         inline constexpr uintptr_t OutdoorAmbient = 0x110;
         inline constexpr uintptr_t ColorShift_Bottom = 0xf8;
         inline constexpr uintptr_t ColorShift_Top = 0xec;
@@ -132,8 +132,8 @@ namespace offsets {
     }
 
     namespace DragDetector {
-        inline constexpr uintptr_t Enabled = 0x2e9;
-        inline constexpr uintptr_t RunLocally = 0x2eb;
+        inline constexpr uintptr_t Enabled = 0xdf;
+        inline constexpr uintptr_t RunLocally = 0xe1;
         inline constexpr uintptr_t MaxDragTranslation = 0x284;
         inline constexpr uintptr_t MinDragTranslation = 0x290;
         inline constexpr uintptr_t MaxForce = 0x2c4;
