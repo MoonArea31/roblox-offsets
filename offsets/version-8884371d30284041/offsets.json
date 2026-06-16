@@ -88,7 +88,7 @@
         "Ambient": 224,
         "EnvironmentDiffuseScale": 300,
         "Atmosphere": 496,
-        "EnvironmentSpecularScale": 600,
+        "EnvironmentSpecularScale": 304,
         "OutdoorAmbient": 272,
         "ColorShift_Bottom": 248,
         "ColorShift_Top": 236
@@ -113,8 +113,8 @@
         "RelativeTo": 412
     },
     "DragDetector": {
-        "Enabled": 745,
-        "RunLocally": 747,
+        "Enabled": 223,
+        "RunLocally": 225,
         "MaxDragTranslation": 644,
         "MinDragTranslation": 656,
         "MaxForce": 708,
