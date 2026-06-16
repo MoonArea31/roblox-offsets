@@ -63,7 +63,7 @@ namespace offsets {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
         inline constexpr uintptr_t Material = 0x23e;
         inline constexpr uintptr_t Shape = 0x1b1;
-        inline constexpr uintptr_t PrimitiveFlags = 0x51;
+        inline constexpr uintptr_t PrimitiveFlags = 0x1b6;
         inline constexpr uintptr_t Owner = 0x208;
     }
 
@@ -83,7 +83,7 @@ namespace offsets {
         inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
         inline constexpr uintptr_t WalkToPoint = 0x17c;
         inline constexpr uintptr_t FloorMaterial = 0x190;
-        inline constexpr uintptr_t WalkTimer = 0x400;
+        inline constexpr uintptr_t WalkTimer = 0x410;
         inline constexpr uintptr_t WalkToPart = 0x130;
         inline constexpr uintptr_t AutoRotate = 0x1e1;
         inline constexpr uintptr_t Sit = 0x1ea;
@@ -102,7 +102,7 @@ namespace offsets {
         inline constexpr uintptr_t Ambient = 0xe0;
         inline constexpr uintptr_t EnvironmentDiffuseScale = 0x12c;
         inline constexpr uintptr_t Atmosphere = 0x1f0;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x130;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x258;
         inline constexpr uintptr_t OutdoorAmbient = 0x110;
         inline constexpr uintptr_t ColorShift_Bottom = 0xf8;
         inline constexpr uintptr_t ColorShift_Top = 0xec;
@@ -154,6 +154,8 @@ namespace offsets {
         inline constexpr uintptr_t DiagonalFieldOfView = 0x15c;
         inline constexpr uintptr_t MaxAxisFieldOfView = 0x15c;
         inline constexpr uintptr_t FieldOfView = 0x160;
+        inline constexpr uintptr_t Position = 0x11c;
+        inline constexpr uintptr_t CFrame = 0xf8;
         inline constexpr uintptr_t ViewportInt16 = 0x2ac;
         inline constexpr uintptr_t ViewportSize = 0x2e8;
         inline constexpr uintptr_t CameraSubject = 0xe8;
@@ -193,7 +195,7 @@ namespace offsets {
         inline constexpr uintptr_t MaxActivationDistance = 0x140;
         inline constexpr uintptr_t KeyboardKeyCode = 0x13c;
         inline constexpr uintptr_t Enabled = 0x14e;
-        inline constexpr uintptr_t RequiresLineOfSight = 0x11;
+        inline constexpr uintptr_t RequiresLineOfSight = 0x14f;
     }
 
     namespace ClickDetector {
